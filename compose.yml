@@ -20,6 +20,7 @@ services:
       MODRINTH_MODPACK: ${MODRINTH_MODPACK}
     ports:
       - "25565:25565"
+      - "8080:8080"
     volumes:
       - ./data:/data
       - ./server.mrpack:/server.mrpack
