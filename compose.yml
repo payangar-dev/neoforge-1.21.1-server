@@ -1,6 +1,6 @@
 services:
   mc:
-    container_name: neoforge-1.21.1-simplet
+    container_name: fabric-1.21.1-simplon
     image: itzg/minecraft-server
     environment:
       TYPE: MODRINTH
